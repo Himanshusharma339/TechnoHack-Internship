@@ -56,7 +56,6 @@ int main() {
         else
             cout << "You are very close to the secret number." << endl;
     }
-    cout<<"current attempts is:"maxAttempts-1;
 
     if (attempts >= maxAttempts) {
         cout << "Sorry, you've run out of attempts. The correct number was " << secretNumber << "." << endl;
